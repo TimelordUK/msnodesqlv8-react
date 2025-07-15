@@ -62,6 +62,10 @@ npm run electron
 3. The app connects to SQL Server and runs a simple query when you click the button
 4. Results are displayed in the UI
 
+
+<img width="2862" height="1650" alt="image" src="https://github.com/user-attachments/assets/34e2fc18-2b54-481c-bb1a-631de0565753" />
+
+
 ## Troubleshooting
 
 If you encounter issues with the native module:
