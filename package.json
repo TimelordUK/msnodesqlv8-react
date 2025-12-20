@@ -1,6 +1,6 @@
 {
   "name": "msnodesqlv8-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React demo with msnodesqlv8",
   "main": "electron-main.js",
   "scripts": {
