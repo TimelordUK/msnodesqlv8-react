@@ -16,7 +16,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "msnodesqlv8": "^5.1.4",
+    "msnodesqlv8": "^5.1.5",
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
   },
@@ -27,12 +27,12 @@
     "babel-loader": "^10.0.0",
     "concurrently": "^9.2.1",
     "cross-env": "^10.1.0",
-    "electron": "^40.1.0",
+    "electron": "^40.6.0",
     "electron-rebuild": "^3.2.9",
     "html-webpack-plugin": "^5.6.6",
     "node-loader": "^2.1.0",
-    "wait-on": "^9.0.3",
-    "webpack": "^5.105.0",
+    "wait-on": "^9.0.4",
+    "webpack": "^5.105.2",
     "webpack-cli": "^6.0.1",
     "webpack-dev-server": "^5.2.3",
     "webpack-node-externals": "^3.0.0"
