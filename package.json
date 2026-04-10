@@ -9,8 +9,8 @@
     "electron": "electron .",
     "electron-dev": "node start-electron-dev.js",
     "dev": "concurrently \"npm start\" \"wait-on http://localhost:3000 && cross-env NODE_ENV=development electron .\"",
-    "electron-rebuild": "electron-rebuild -f -w msnodesqlv8",
-    "postinstall": "electron-rebuild -f -w msnodesqlv8"
+    "electron-rebuild": "electron-rebuild -w msnodesqlv8",
+    "postinstall": "electron-rebuild -w msnodesqlv8"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +19,11 @@
     "msnodesqlv8": "^5.1.9",
     "react": "^19.2.5",
     "react-dom": "^19.2.5"
+  },
+  "overrides": {
+    "prebuild-install": {
+      "node-abi": "^4.28.0"
+    }
   },
   "devDependencies": {
     "@babel/core": "^7.29.0",
