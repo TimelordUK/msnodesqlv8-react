@@ -16,9 +16,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "msnodesqlv8": "^5.2.0",
-    "react": "^19.2.6",
-    "react-dom": "^19.2.6"
+    "msnodesqlv8": "^5.2.1",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
   },
   "overrides": {
     "prebuild-install": {
@@ -36,10 +36,10 @@
     "@electron/rebuild": "^4.0.3",
     "html-webpack-plugin": "^5.6.7",
     "node-loader": "^2.1.0",
-    "wait-on": "^9.0.5",
-    "webpack": "^5.106.2",
-    "webpack-cli": "^7.0.2",
-    "webpack-dev-server": "^5.2.3",
+    "wait-on": "^9.0.10",
+    "webpack": "^5.108.1",
+    "webpack-cli": "^7.1.0",
+    "webpack-dev-server": "^5.2.5",
     "webpack-node-externals": "^3.0.0"
   }
 }
