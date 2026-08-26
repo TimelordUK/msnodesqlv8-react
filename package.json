@@ -9,31 +9,25 @@
     "electron": "electron .",
     "electron-dev": "node start-electron-dev.js",
     "dev": "concurrently \"npm start\" \"wait-on http://localhost:3000 && cross-env NODE_ENV=development electron .\"",
-    "electron-rebuild": "electron-rebuild -w msnodesqlv8",
-    "postinstall": "electron-rebuild -w msnodesqlv8"
+    "electron-rebuild": "electron-rebuild -w msnodesqlv8"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "msnodesqlv8": "^5.2.2",
+    "msnodesqlv8": "^5.3.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7"
-  },
-  "overrides": {
-    "prebuild-install": {
-      "node-abi": "^4.28.0"
-    }
   },
   "devDependencies": {
     "@babel/core": "^8.0.1",
     "@babel/preset-env": "^8.0.2",
     "@babel/preset-react": "^8.0.1",
+    "@electron/rebuild": "^4.2.0",
     "babel-loader": "^10.1.1",
     "concurrently": "^10.0.3",
     "cross-env": "^10.1.0",
     "electron": "^43.1.1",
-    "@electron/rebuild": "^4.2.0",
     "html-webpack-plugin": "^5.6.7",
     "node-loader": "^2.1.0",
     "wait-on": "^9.0.10",
